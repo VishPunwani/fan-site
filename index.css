@@ -1,9 +1,0 @@
-
-body, html {
-    height: 120%;
-    background-image: url("/fan-site-pictures/background-comedy-page1.jpg");
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
