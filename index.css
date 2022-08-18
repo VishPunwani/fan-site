@@ -1,8 +1,17 @@
-.comedybanner{
-    z-index: 1;
-}
 
-h1{
-    padding: 0;
-    margin: 0;
-}
+body, html {
+    height: 100%;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("/fan-site-pictures/background-comedy-page1.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
