@@ -1,15 +1,7 @@
 
 body, html {
-    height: 100%;
-  }
-  
-  .bg-image {
-    /* The image used */
+    height: 120%;
     background-image: url("/fan-site-pictures/background-comedy-page1.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
