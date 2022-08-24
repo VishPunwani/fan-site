@@ -235,6 +235,7 @@
 
 
     .flip-card {
+      display: inline-block;
         background-color: transparent;
         width: 300px;
         height: 250px;
@@ -279,7 +280,7 @@
         transform: rotateY(180deg);
       }
 
-      .goku.luffy.naruto.AOT{
+      .goku .luffy .naruto .AOT{
         padding: 5px;
         float: left;
       }
