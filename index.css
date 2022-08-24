@@ -278,3 +278,12 @@
         color: white;
         transform: rotateY(180deg);
       }
+
+      .goku{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        content: "";
+  clear: both;
+  display: table;
+      }
