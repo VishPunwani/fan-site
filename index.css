@@ -25,7 +25,7 @@
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
@@ -54,7 +54,7 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -78,7 +78,7 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -108,7 +108,7 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -134,7 +134,7 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -164,7 +164,7 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -188,7 +188,7 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -218,7 +218,7 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 2s linear infinite;
@@ -280,10 +280,6 @@
       }
 
       .goku{
-        float: left;
-        width: 33.33%;
+        float: right;
         padding: 5px;
-        content: "";
-  clear: both;
-  display: table;
       }
