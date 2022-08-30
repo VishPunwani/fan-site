@@ -235,7 +235,11 @@
 
 
     .flip-card {
-      display: inline-block;
+      margin: 75px;
+      justify-content: flex-end;
+      clear: both;
+      float: left;
+      align-content: space-between;
         background-color: transparent;
         width: 300px;
         height: 250px;
@@ -245,9 +249,10 @@
       
       /* This container is needed to position the front and back side */
       .flip-card-inner {
+         float: left;
         position: relative; 
         width: 100%;
-        height: 100%;
+        height: 100%; 
         text-align: center;
         transition: transform 0.8s;
         transform-style: preserve-3d;
@@ -283,4 +288,18 @@
       .goku .luffy .naruto .AOT{
         padding: 5px;
         float: left;
+      }
+
+
+      .row1{
+        display: inline-block;
+        justify-content: center;
+        padding: 5px;
+       margin: 75px;
+      }
+
+      .column1{
+        justify-content: center;
+        display: inline-block;
+        
       }
