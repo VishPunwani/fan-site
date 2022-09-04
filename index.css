@@ -291,15 +291,4 @@
       }
 
 
-      .row1{
-        display: inline-block;
-        justify-content: center;
-        padding: 5px;
-       margin: 75px;
-      }
-
-      .column1{
-        justify-content: center;
-        display: inline-block;
-        
-      }
+      
