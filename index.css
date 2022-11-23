@@ -45,3 +45,12 @@ body{
     display: flex;
     justify-content: space-between;
   }
+
+  .firstparagraph{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .headshot{
+    
+  }
