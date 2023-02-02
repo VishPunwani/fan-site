@@ -82,7 +82,27 @@ body{
       animation: fadeIn 5s;
     }
 
+    .slideIn{
+      animation: slideIn;
+      animation-duration: 5s;
+    }
+
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from{
+        margin-right: 0%;
+        width: 100%;
+        animation-duration: 5s;
+        animation: rotate;
+      }
+       
+      to{
+        margin-right: 100%;
+        width: 100%;
+        animation: slideIn;
+      }
     }
