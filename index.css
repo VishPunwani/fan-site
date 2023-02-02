@@ -63,12 +63,26 @@ body{
     width: 50%;
     float: left;
     padding: 5px 20px 20px 20px;
-    
-  
+    }
+    .rcc-cert {
+      float: right;
+    }
+
+    .ccpa {
+      float: right;
     }
     
 @media only screen and (max-width:600px) {
       body {
         background-color: black;
       }
+    }
+
+    .fade-in-image{
+      animation: fadeIn 5s;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
