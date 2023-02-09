@@ -6,6 +6,7 @@ h1{
 
 body{
     background-color: #9D88B2;
+    background-image: INSERT BACKGROUND
 }
 
 /* Style the navbar */
@@ -96,8 +97,6 @@ body{
       from{
         margin-right: 0%;
         width: 100%;
-        animation-duration: 5s;
-        animation: rotate;
       }
        
       to{
