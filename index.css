@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,17 +11,35 @@ h1{
 }
 
 body{
-    background-color: #9D88B2;
-    background-image: INSERT BACKGROUND
+    background-color: white;
 }
 
-/* Style the navbar */
+ footer{
+      background-color: black;
+      height: auto;
+      width: 100vw;
+      font-family: "Open Sans";
+      padding-top: 40px;
+      color: #fff;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+/* Style the navbar 
 #navbar {
     overflow: hidden;
     background-color: #333;
   }
   
-  /* Navbar links */
+  /* Navbar links 
   #navbar a {
     float: left;
     display: block;
@@ -25,19 +49,19 @@ body{
     text-decoration: none;
   }
   
-  /* Page content */
+  /* Page content 
   .content {
     padding: 16px;
   }
   
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position 
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
   }
   
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) 
   .sticky + .content {
     padding-top: 60px;
   }
@@ -65,43 +89,8 @@ body{
     float: left;
     padding: 5px 20px 20px 20px;
     }
-    .rcc-cert {
-      float: right;
-    }
+  */
+  
 
-    .ccpa {
-      float: right;
-    }
+   
     
-@media only screen and (max-width:600px) {
-      body {
-        background-color: black;
-      }
-    }
-
-    .fade-in-image{
-      animation: fadeIn 5s;
-    }
-
-    .slideIn{
-      animation: slideIn;
-      animation-duration: 5s;
-    }
-
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-
-    @keyframes slideIn {
-      from{
-        margin-right: 0%;
-        width: 100%;
-      }
-       
-      to{
-        margin-right: 100%;
-        width: 100%;
-        animation: slideIn;
-      }
-    }
