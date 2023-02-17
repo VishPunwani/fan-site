@@ -6,12 +6,22 @@
 *::after {
     box-sizing: border-box;
     line-height: 1.5em;
+    margin: 0;
+    padding: 0;
 }
 
 body{
   height: 100%;
   width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color:#f7f7f7;
 }
+
 
 html {
     font-size: 16px;
@@ -19,17 +29,12 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
-    background-color:#f7f7f7;
-}
-
 header {
     background-color: #ffffff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
 }
+
 header .wrapper {
     max-width: 1000px;
     margin: 0 auto;
@@ -180,19 +185,17 @@ h1{
     /* Libre baskerville is the font wanted*/
 }
 
-body{
-    background-color: white;
-    margin: 0;
-}
-
-
  footer{
-      background-color: black;
-      height: 100vw ;
+      background-color: grey;
+      height: auto ;
       width: 100vw;
       font-family: "Open Sans";
       padding-top: 40px;
-      color: #fff;
+      color: black;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
 }
 
 .footer-content{
@@ -243,10 +246,12 @@ body{
   color: aqua;
 }
 
-.footer-bottom{
-  background: #000;
-  width: 100vw;
-  padding: 20px 0; 
-  text-align: center;
-}
 
+
+@media (max-width:500px) {
+  .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  }
