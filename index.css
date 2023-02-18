@@ -33,7 +33,7 @@ header .wrapper {
     justify-content: space-between;
 }
 header .logo img {
-    height: 200px;
+    height: 100px;
     display: block;
 }
 
@@ -131,7 +131,7 @@ header .logo img {
     padding: 30px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 850px) {
     .navbar {
         all: unset;
         display: block;
