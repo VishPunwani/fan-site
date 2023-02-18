@@ -33,12 +33,12 @@ header .wrapper {
     justify-content: space-between;
 }
 header .logo img {
-    height: 100px;
+    height: 200px;
     display: block;
 }
 
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 100%;
     margin: 0;
@@ -131,7 +131,7 @@ header .logo img {
     padding: 30px;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 550px) {
     .navbar {
         all: unset;
         display: block;
