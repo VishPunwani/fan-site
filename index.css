@@ -154,8 +154,10 @@ footer{
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
         0 4px 6px -4px rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
-    
-        
+      }
+
+      .footer-inside {
+        border-top: 10px solid #dec2ba;
       }
 
 
