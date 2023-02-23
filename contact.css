@@ -59,3 +59,31 @@ header{
     flex-wrap: wrap;
     justify-content: flex-end;
  }
+
+ aside{
+    font-size: 0.938rem;
+    width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    overflow: hidden auto;
+    left: 0;
+    top: 0;
+    padding: 2rem 3rem;
+    background-color: var(--prime-color);
+    color: var(--light-font-color);
+ }
+
+ main{
+    order: 1;
+    width: var(--main-content-width);
+    padding: 2rem;
+ }
+
+ .sidebar p.description {
+    margin-bottom: 40px;
+ }
+
+ .sidebar p{
+    color: hsl(var(--primary-hue), var(--primary-saturation), 60%);
+    margin-top: 0;
+}
