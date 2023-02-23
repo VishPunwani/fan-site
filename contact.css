@@ -87,3 +87,54 @@ header{
     color: white;
     margin-top: 0;
 }
+
+.sidebar h4{
+    margin-bottom: 0;
+}
+
+.sidebar p span {
+    display: block;
+    padding: 10px 0;
+    color: grey;
+}
+
+
+.sidebar .item{
+    position: relative;
+    padding-left: 2.3rem;
+}
+
+.sidebar .icon{
+    position: absolute;
+    left: 0;
+}
+
+ul.social {
+    all: unset;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: var(--sidebar-width);
+    background-color: var(--prime-color);
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
+    gap: 10px;
+}
+ul.social svg {
+    display: flex;
+}
+ul.social a {
+    display: block;
+    color: hsl(var(--primary-hue), var(--primary-saturation), 60%);
+    background-color: 
+rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 0;
+    border-radius: 50%;
+}
+ul.social a:hover {
+    color: 
+white;
+}
