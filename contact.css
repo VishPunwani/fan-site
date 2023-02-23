@@ -71,6 +71,8 @@ header{
     padding: 2rem 3rem;
     background-color: #dec2ba;
     color: black;
+    padding-top: 10rem;
+    z-index: -1;
  }
 
  main{
@@ -137,4 +139,26 @@ rgba(0, 0, 0, 0.1);
 ul.social a:hover {
     color: 
 white;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+
+section a{
+    font-weight: bold;
+}
+
+.contact-form-body form{
+    display: flex;
+    flex-flow:column wrap;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.contact-form-body form label {
+    font-weight: bold;
+    margin-top: 10px;
 }
