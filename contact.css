@@ -214,4 +214,20 @@ section a{
         --sidebar-width: 100%;
         --main-content-width: 100%;
     }
+    .container {
+        flex-direction: column;
+    }
+    main {
+        order: 0;
+    }
+    aside {
+        position: inherit;
+        height: auto;
+    }
+    ul.social {
+        position: inherit;
+    }
+    .contact-form-body form {
+        max-width: 100%;
+    }
 }
