@@ -69,8 +69,8 @@ header{
     left: 0;
     top: 0;
     padding: 2rem 3rem;
-    background-color: var(--prime-color);
-    color: var(--light-font-color);
+    background-color: #dec2ba;
+    color: black;
  }
 
  main{
@@ -84,6 +84,6 @@ header{
  }
 
  .sidebar p{
-    color: hsl(var(--primary-hue), var(--primary-saturation), 60%);
+    color: white;
     margin-top: 0;
 }
