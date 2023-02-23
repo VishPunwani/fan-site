@@ -162,3 +162,37 @@ section a{
     font-weight: bold;
     margin-top: 10px;
 }
+
+.contact-form-body form label:first-child{
+    font-weight: bold;
+}
+
+.contact-form-body form textarea{
+    resize:vertical;
+    min-height: 15vh;
+}
+
+.contact-form-body form [type="submit"] {
+    all: unset;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: var(--prime-color);
+    color: var(--light-font-color);
+    cursor: pointer;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.contact-form-body form :is(textarea, input) {
+    padding: 0.5rem 0.7rem;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    border: 1px solid hsl(var(--primary-hue), var(--primary-saturation), 70%);
+    border-radius: 3px;
+    outline: none;
+}
+.contact-form-body
+    form
+    :is(textarea:hover, input:hover, textarea:focus, input:focus) {
+    border-color: hsl(var(--primary-hue), var(--primary-saturation), 30%);
+}
