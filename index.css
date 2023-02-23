@@ -156,9 +156,32 @@ footer{
     padding: 10px 20px;
       }
 
-      .footer-inside {
-        border-top: 10px solid #dec2ba;
+    .footer-inside {
+    border-top: 3px solid #dec2ba;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+            0 4px 6px -4px rgba(0, 0, 0, 0.1);
+       
+    }
+   
+
+ .fa{
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
       }
 
+.fa:hover{
+     opacity:0.7;
+ }
 
+.fa-instagram{
+    background: pink;
+    color: white;
+}
+
+
+/* CONTACT PAGE CSS */
 
