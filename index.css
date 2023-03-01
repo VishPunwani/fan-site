@@ -138,7 +138,7 @@ header .logo img {
 @media (min-width: 850px) {
     .navbar {
         all: unset;
-        display: block;
+        display: inline;
     }
     .navbar ul {
         flex-direction: row;

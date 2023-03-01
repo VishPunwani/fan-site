@@ -241,6 +241,7 @@ section a{
     }
     .contact-form-body form {
         max-width: 100%;
+        display: contents;
 
     }
 
