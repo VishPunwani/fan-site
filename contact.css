@@ -16,8 +16,8 @@ header{
 
 :root{
     --font-family: "Open Sans" , sans-serif;
-    --sidebar-width: 35%;
-    --main-content-width:65%;
+    --sidebar-width: 30%;
+    --main-content-width:70%;
 
     --primary-hue: 270deg;
     --primary-saturation: 5.5555555556%;
@@ -202,10 +202,10 @@ section a{
     border-color: hsl(var(--primary-hue), var(--primary-saturation), 30%);
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
     :root {
-        --sidebar-width: 50%;
-        --main-content-width: 50%;
+        --sidebar-width: 40%;
+        --main-content-width: 60%;
     }
 }
 
@@ -216,30 +216,32 @@ section a{
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
     :root {
         --sidebar-width: 50%;
         --main-content-width: 50%;
     }
     .container {
         flex-direction: column;
+        --sidebar-width: 100%;
     }
     main {
         order: 0;
+        --main-content-width: 100%;
+        
     }
     aside {
         position: inherit;
         height: auto;
     }
     ul.social {
-        position: inherit;
+        position: relative;
+        height: auto;
+
     }
     .contact-form-body form {
         max-width: 100%;
 
-    } 
-    
-    .icons{
-           display: flex;
     }
-}
+
+} 
