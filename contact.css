@@ -206,6 +206,7 @@ section a{
     :root {
         --sidebar-width: 40%;
         --main-content-width: 60%;
+
     }
 }
 
@@ -213,6 +214,7 @@ section a{
     :root {
         --sidebar-width: 50%;
         --main-content-width: 50%;
+
     }
 }
 
@@ -228,6 +230,7 @@ section a{
     main {
         order: 0;
         --main-content-width: 100%;
+        display: contents;
         
     }
     aside {
