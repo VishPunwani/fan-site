@@ -69,7 +69,7 @@ aside {
 main {
     order: 1;
     width: var(--main-content-width);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .sidebar p.desc {
@@ -77,8 +77,8 @@ main {
 }
 
 .sidebar p {
-   color: hsl(var(--primary-hue), var(--primary-saturation), 60%);
-   margin-top: 0;
+    color: hsl(var(--primary-hue), var(--primary-saturation), 60%);
+    margin-top: 0;
 }
 
 .sidebar h4 {
