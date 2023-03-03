@@ -18,6 +18,8 @@ body {
     background-color: #f7f7f7;
 }
 
+/* START OF HEADER SECTION CSS */
+
 header {
     background-color: #ffffff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -40,6 +42,8 @@ header .logo img {
     height: 100px;
     display: block;
 }
+
+/* START OF NAVBAR SECTION CSS */
 
 .navbar {
     position: fixed;
@@ -135,6 +139,56 @@ header .logo img {
     padding: 30px;
 }
 
+
+/* START OF ABOUT SECTION CSS */
+
+img{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+
+}
+
+.about-me-writeup{
+    display: wrap;
+
+}
+
+.profile{
+    display: wrap;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-50%)
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(-0);
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+} 
+
+/* END OF ABOUT SECTION CSS */
+
+/* START OF RESPONSIVE CSS */
+
 @media (min-width: 850px) {
     .navbar {
         all: unset;
@@ -163,8 +217,6 @@ footer{
 
       }
    
-       
-
 
  .fa{
         padding: 20px;
