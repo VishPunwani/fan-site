@@ -142,10 +142,11 @@ header .logo img {
 
 /* START OF ABOUT SECTION CSS */
 
-img{
+.profile-image img{
     border-radius: 50%;
     width: 50%;
     height: 50%;
+    filter: grayscale(100%);
 
 }
 

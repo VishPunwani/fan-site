@@ -15,6 +15,9 @@ section{
     min-height: 100vh;
 }
 
+
+/* CLASSES FOR ANIMATION */
+
 .hidden{
     opacity: 0;
     transition: all 1s;
