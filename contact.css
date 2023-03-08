@@ -77,8 +77,8 @@ main {
 }
 
 .sidebar p {
-   color: hsl(var(--primary-hue), var(--primary-saturation), 60%);
-   margin-top: 0;
+    color: hsl(var(--primary-hue), var(--primary-saturation), 60%);
+    margin-top: 0;
 }
 
 .sidebar h4 {
@@ -153,7 +153,7 @@ section a {
 }
 .contact-form-body form label {
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .contact-form-body form label:first-child {
     margin: 0;
@@ -187,6 +187,7 @@ section a {
     :is(textarea:hover, input:hover, textarea:focus, input:focus) {
     border-color: hsl(var(--primary-hue), var(--primary-saturation), 30%);
 }
+
 
 @media only screen and (max-width: 1100px) {
     :root {

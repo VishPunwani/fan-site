@@ -1,3 +1,6 @@
+
+/* SCROLL EASE IN EFFECT ON HOME PAGE */
+
 const observer = new IntersectionObserver((entries)=> {
     entries.forEach((entry)=> {
         console.log(entry)
