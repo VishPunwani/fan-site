@@ -141,7 +141,7 @@ header .logo img {
 
 
 /* START OF ABOUT SECTION CSS */
-/*
+
 .profile-image img{
     border-radius: 50%;
     width: 50%;
@@ -149,7 +149,7 @@ header .logo img {
     filter: grayscale(100%);
 
 }
-
+/*
 .about-me-writeup{
     display: wrap;
 
