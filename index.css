@@ -11,8 +11,8 @@
   }
   body {
     min-height: 100vh;
-    background: #000;
-    color: #fff;
+    background: #dec2ba;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@
     font-family: Verdana, Arial, sans-serif;
     margin-top: 1rem;
     font-size: .9rem;
-    color: #aaa;
+    color: grey;
     font-style: normal;
   }
   blockquote q {
@@ -51,7 +51,7 @@
     content: close-quote;
   }
   q:before, q:after {
-    color: #ccc;
+    color: black;
     font-size: 4rem;
   }
 
@@ -90,7 +90,7 @@ header {
 
 }
 header .wrapper {
-    max-width: 1000px;
+    max-width: auto;
     margin: 0 auto;
     
     flex-direction: column;
